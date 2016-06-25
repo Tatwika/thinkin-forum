@@ -58,7 +58,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener{
                     Log.v("E_LOGIN", "Logged in");
                     //Log.w("F_PROVIDER",firebaseSimpleLoginUser.getProvider().toString());
                     //Toast.makeText(getActivity(), "Logged in !!", Toast.LENGTH_SHORT).show();
-                    Intent openPostActivity = new Intent(getActivity(),PostsActivity.class);
+                    Intent openPostActivity = new Intent(getActivity(),HomeActivity.class);
                     startActivity(openPostActivity);
                 }
             }
